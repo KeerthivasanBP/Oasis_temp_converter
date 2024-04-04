@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9f1b1b;
+  font-family: 'Arvo', serif;
+  color: white;
+  display: flex; /* Makes the body a flex container */
+  justify-content: center; /* Centers its children horizontally */
+  align-items: center; /* Centers its children vertically */
+  min-height: 100vh; /* Gives a minimum height to the body */
+  margin: 0; /* Removes the default margin */
+}
+
+#focusedInputed {
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  width: 400px;
+}
+
+.hot {
+  color: #920303;
+}
+
+.cold {
+  color: #2672bd;
+}
+
+.normal {
+  color: #ff9933;
+}
+
+.container {
+  text-align: center; /* Centers the text inside the container */
+  /* Add any specific styling you need for your container */
+}
